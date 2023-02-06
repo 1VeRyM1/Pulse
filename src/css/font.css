@@ -1,45 +1,30 @@
 @font-face {
-  font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?o2fkub');
-  src:  url('../fonts/icomoon.eot?o2fkub#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?o2fkub') format('truetype'),
-    url('../fonts/icomoon.woff?o2fkub') format('woff'),
-    url('../fonts/icomoon.svg?o2fkub#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
+    font-family: 'Museo Sans Cyrl';
+    src: url('../font/MuseoSansCyrl-300.eot');
+    src: url('../font/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+        url('../font/MuseoSansCyrl-300.woff2') format('woff2'),
+        url('../font/MuseoSansCyrl-300.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
-  speak: never;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url('../font/MuseoSansCyrl-500.eot');
+    src: url('../font/MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'),
+        url('../font/MuseoSansCyrl-500.woff2') format('woff2'),
+        url('../font/MuseoSansCyrl-500.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
 }
 
-.icon-person-walking-solid:before {
-  content: "\e900";
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url('../font/MuseoSansCyrl-700.eot');
+    src: url('../font/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),
+        url('../font/MuseoSansCyrl-700.woff2') format('woff2'),
+        url('../font/MuseoSansCyrl-700.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
 }
-.icon-heart-pulse-solid:before {
-  content: "\e901";
-}
-.icon-trophy-solid:before {
-  content: "\e902";
-}
-.icon-comments-solid:before {
-  content: "\e903";
-}
-.icon-truck-solid:before {
-  content: "\e904";
-}
-.icon-stopwatch-solid:before {
-  content: "\e905";
-}
+
