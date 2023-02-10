@@ -1,6 +1,13 @@
-.bbb{
-    width:500px;
-    font-weight: 700;
-    background-color: red;
-    height:500px;
+@import 'base/variables';
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
 }
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/privilege';
