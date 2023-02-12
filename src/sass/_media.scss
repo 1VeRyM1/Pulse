@@ -13,6 +13,15 @@
             justify-content: space-around;
         }
     }
+    .title_left {
+        font-size: 32px;
+    }
+    .consultation {
+        padding-left: 70px;
+        &__descr {
+            margin-top: 90px;
+        }
+    }
 }
 
 @media (max-width: 991px) {
@@ -50,6 +59,23 @@
         &__icon {
             max-width: 220px;
         }
+    }
+    .title_left {
+        text-align: center;
+    }
+    .consultation {
+        padding:80px 0 70px 0;
+        text-align: center;
+        display: flex;
+        &__descr {
+            margin-top: 75px;
+        }
+    }
+    .feed-form {
+        width: 280px;
+        margin: 0 auto;
+        margin-top: 36px;
+        align-items: center;
     }
 }
 
@@ -123,6 +149,33 @@
             font-size: 13px;
         }
     }
+    .title_left {
+        font-size: 23px;
+    }
+    .consultation {
+        min-height: 600px;
+        padding: 70px 30px 60px 30px;
+        &__descr {
+            margin-top: 55px;
+            font-size: 17px;
+        }
+    }
+    .feed-form {
+        width: 250px;
+        input {
+            height: 40px;
+            font-size: 12px;
+            padding: 0 15px;
+            margin-bottom: 10px;
+            &:nth-child(3){
+                margin-bottom: 15px;
+            }
+        }
+    }
+    .button_submit {
+        height: 40px;
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 543px) {
@@ -183,7 +236,7 @@
     }
     .privilege {
         .title {
-            font-size: 19px;
+            font-size: 18px;
         }
         &__icons {
             margin-top: 20px;
@@ -196,5 +249,33 @@
             margin-top: 15px;
             font-size: 12px;
         }
+    }
+    .title_left {
+        font-size: 18px;
+    }
+    .consultation {
+        min-height: 500px;
+        padding: 50px 30px 40px 30px;
+        &__descr {
+            margin-top: 40px;
+            font-size: 14px;
+        }
+    }
+    .feed-form{
+        margin-top: 30px;
+        width: 200px;
+        input {
+            height: 35px;
+            margin-bottom: 8px;
+            padding: 0 12px;
+            font-size: 10px;
+            &:nth-child(3) {
+                margin-bottom: 12px;
+            }
+        }
+    }
+    .button_submit {
+        height: 35px;
+        font-size: 10px;
     }
 }
