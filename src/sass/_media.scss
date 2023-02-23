@@ -36,6 +36,11 @@
             padding-top: 60px;
         }
     }
+    .client {
+        &__comm {
+            width: 850px;
+        }
+    }
 }
 
 @media (max-width: 991px) {
@@ -112,6 +117,29 @@
             &__price {
                 font-size: 18px;
             }
+        }
+    }
+    .client {
+        hr {
+            margin: 45px 0;
+        }
+        &__comm {
+            width: 700px;
+            margin-top: 60px;
+        }
+        &__avatar {
+            width: 130px;
+            height: 130px;
+            margin-right: 40px;
+        }
+        &__nickname {
+            font-size: 16px;
+        }
+        &__marafon {
+            font-size: 13px;
+        }
+        &__comment {
+            font-size: 14px;
         }
     }
 }
@@ -234,6 +262,7 @@
         }
     }
     .catalog {
+        padding-bottom: 50px;
         .title {
             font-size: 23px;
         }
@@ -251,6 +280,37 @@
             &__price {
                 font-size: 17px;
             }
+        }
+    }
+    .client {
+        hr {
+            margin: 40px 0;
+        }
+        .title {
+            font-size: 23px;
+        }
+        &__comm {
+            width: 480px;
+            margin-top: 60px;
+        }
+        &__micro {
+            align-items: center;
+        }
+        &__nickname {
+            margin-bottom: 0;
+        }
+        &__avatar {
+            display: none;
+            &-mini {
+                display: block;
+            }
+        }
+        &__marafon {
+            display: none;
+        }
+        &__comment {
+            margin: 10px 0 0 40px;
+            font-size: 12px;
         }
     }
 }
@@ -363,6 +423,7 @@
         }
     }
     .catalog {
+        padding-bottom: 40px;
         .title {
             font-size: 18px;
         }
@@ -401,6 +462,30 @@
                     margin-bottom: 14pxs;
                 }
             }
+        }
+    }
+    .client {
+        hr {
+            margin: 30px 0;
+        }
+        .title {
+            font-size: 18px;
+        }
+        &__comm {
+            width: 85%;
+            margin-top: 50px;
+        }
+        &__avatar-mini {
+            width: 35px;
+            height: 35px;
+            margin-right: 10px;
+        }
+        &__nickname {
+            font-size: 14px;
+        }
+        &__comment {
+            margin: 10px 0 0 40px;
+            font-size: 10px;
         }
     }
 }

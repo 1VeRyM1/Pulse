@@ -1,0 +1,51 @@
+.client {
+    min-height: 950px;
+    padding-bottom: 70px;
+    &__comm {
+        width: 940px;
+        margin: 0 auto;
+        margin-top: 70px;
+    }
+    &__micro {
+        display: flex;
+        flex-direction: row;
+    }
+    hr {
+        height: 1px;
+        margin: 0 auto;
+        background-color: #f6f6f6;
+        margin: 50px 0;
+    }
+    &__recomindetion {
+        display: flex;
+    }
+    &__avatar {
+        width: 169px;
+        height: 169px;
+        margin-right: 62px;
+        &-mini {
+            width: 40px;
+            height: 40px;
+            margin-right: 12px;
+            display: none;
+        }
+    }
+    &__nickname {
+        display: block;
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 4px;
+    }
+    &__marafon {
+        color: #646464;
+        font-size: 14px;
+        font-weight: 300;
+        margin-bottom: 12px;
+    }
+    &__comment {
+        color: #0d0d0d;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
