@@ -254,20 +254,8 @@
         min-height: 600px;
         padding: 70px 30px 60px 30px;
         &__descr {
-            margin-top: 55px;
+            margin-top: 45px;
             font-size: 17px;
-        }
-    }
-    .feed-form {
-        width: 250px;
-        input {
-            height: 40px;
-            font-size: 12px;
-            padding: 0 15px;
-            margin-bottom: 10px;
-            &:nth-child(3){
-                margin-bottom: 15px;
-            }
         }
     }
     .button_submit {
@@ -371,6 +359,10 @@
             }
         }
     }
+    .modal {
+        width: 360px;
+        padding: 35px 35px 38px;
+    }
 }
 
 @media (max-width: 543px) {
@@ -391,9 +383,9 @@
         min-height: 530px;
         .button_main {
             margin-top: 35px;
-            height: 35px;
-            width: 220px;
-            font-size: 12px;
+            width: 265px;
+            height: 45px;
+            font-size: 13px;
         }
         padding: 15px 0 30px 0;
         &__wrapper {
@@ -458,20 +450,20 @@
     }
     .feed-form{
         margin-top: 30px;
-        width: 200px;
+        width: 230px;
         input {
-            height: 35px;
-            margin-bottom: 8px;
+            height: 40px;
+            margin-bottom: 10px;
             padding: 0 12px;
-            font-size: 12px;
+            font-size: 13px;
             &:nth-child(3) {
                 margin-bottom: 12px;
             }
         }
     }
     .button_submit {
-        height: 35px;
-        font-size: 10px;
+        height: 40px;
+        font-size: 13px;
     }
     .carousel {
         padding-bottom: 50px;
@@ -569,6 +561,22 @@
             img {
                 height: 19px;
             }
+        }
+    }
+    .modal {
+        min-height: 360px;
+        width: 300px;
+        padding: 35px 15px 28px;
+        &__subtitle {
+            font-size: 16px;
+        }
+        &__descr {
+            font-size: 13px;
+        }
+        &__close {
+            font-size: 35px;
+            top: 8px;
+            right: 10px;
         }
     }
 }
